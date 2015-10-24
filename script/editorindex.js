@@ -110,7 +110,7 @@ $(document).on('mousemove', function(e)
                 
                 if(taggedCells.indexOf(cid) === -1)
                 {
-                    $element.html(angle * (180/Math.PI));
+                    $element.html(((angle * (180/Math.PI)) + 90).toFixed(0));
                     $element.data('mark', angle);
                     $element.data('force', $('#force').val());
 
