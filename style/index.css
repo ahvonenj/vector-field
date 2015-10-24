@@ -1,0 +1,29 @@
+*, html, body
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	width: 100%;
+	height: 100%;
+	font-family: Arial, Tahoma;
+	overflow: hidden;
+	background-color: #34495e;
+}
+
+#wrapper
+{
+	width: 100%;
+	height: 100%;
+}
+
+canvas
+{
+	display: block;
+	position: absolute;
+	left: calc(50% - 400px);
+	top: calc(50% - 400px);
+
+}
