@@ -145,7 +145,7 @@ body
     width: 100px;
     height: 35px;
     position: absolute;
-    top: 490px;
+    top: calc(100vh - 30px - (35px / 2) - 2px - 35px - 10px - 35px - 10px);
     left: calc(15px + 100vh - 30px + 15px);
     padding-left: 5px;
 }
