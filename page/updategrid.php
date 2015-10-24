@@ -4,7 +4,7 @@
 	
 	if(isset($_POST["grids"], $_POST["auth"]))
 	{
-		if(md5($_POST["auth"]) === "5ee1e992958b13adfd77e10342f25f6c")
+		if(password_verify($_POST["auth"], "$2y$11$4T2MkSwtIUQWZoSA6pm2n.jGeHOOLFZiIFbf.Je0KaR/xB7aAEM4a"))
 		{
 			$grids = $_POST["grids"];
 
