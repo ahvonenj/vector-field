@@ -11,7 +11,7 @@
 			$regxd = NULL;
 			preg_match_all('/(var grid =\s\[(.*)\];.*var fgrid =\s\[(.*)\];)/ims', $grids, $regxd);
 
-			$success = file_put_contents("resource/file/vectorgrid.js", $regxd[0][0]);
+			$success = file_put_contents("../resource/file/vectorgrid.js", $regxd[0][0]);
 
 			echo "Doned";
 		}

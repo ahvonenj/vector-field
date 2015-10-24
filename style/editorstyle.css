@@ -21,8 +21,8 @@ body
     position: absolute;
     top: 15px;
     left: 15px;
-    width: 600px;
-    height: 600px;
+    width: calc(100vh - 30px);
+    height: calc(100vh - 30px);
     box-sizing: border-box;
 }
 
@@ -74,7 +74,7 @@ body
 .button
 {
     position: absolute;
-    left: calc(15px + 600px + 15px);
+    left: calc(15px + 100vh - 30px + 15px);
     
     width: 100px;
     height: 35px;
@@ -129,7 +129,7 @@ body
     height: 35px;
     position: absolute;
     top: 240px;
-    left: calc(15px + 600px + 15px + 100px + 15px);
+    left: calc(15px + 100vh - 30px + 15px + 100px + 15px);
     padding-left: 5px;
 }
 
@@ -146,13 +146,13 @@ body
     height: 35px;
     position: absolute;
     top: 490px;
-    left: calc(15px + 600px + 15px);
+    left: calc(15px + 100vh - 30px + 15px);
     padding-left: 5px;
 }
 
 #print-button
 {
-    top: calc(600px - (35px / 2) - 2px);
+    top: calc(100vh - 30px - (35px / 2) - 2px);
     background-color: #9b59b6;
 }
 
@@ -168,14 +168,14 @@ body
     width: 100px;
     height: 35px;
     position: absolute;
-    top: calc(600px - (35px / 2) - 2px);
-    left: calc(15px + 600px + 15px + 100px + 15px);
+    top: calc(100vh - 30px - (35px / 2) - 2px);
+    left: calc(15px + 100vh - 30px + 15px + 100px + 15px);
     padding-left: 5px;
 }
 
 #clear-button
 {
-    top: calc(600px - (35px / 2) - 2px - 35px - 10px);
+    top: calc(100vh - 30px - (35px / 2) - 2px - 35px - 10px);
     background-color: #e74c3c;
 }
 

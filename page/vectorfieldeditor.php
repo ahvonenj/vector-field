@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Vector field editor</title>
+        <meta charset = "utf8">
         <link rel = "stylesheet" type = "text/css" href = "../style/editorstyle.css" />
         <script src = "../script/lib/jquery-2.1.3.min.js"></script>
         <script src = "../script/editorindex.js"></script>
